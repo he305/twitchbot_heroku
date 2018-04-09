@@ -1,4 +1,3 @@
-print('before')
 import requests
 from cfg import CLIENT_ID, token
 from time import sleep
@@ -236,6 +235,7 @@ class App:
 #         print("Last check: {}".format(datetime.datetime.now().strftime('%H:%M:%S')))
 #         self.update_status['text'] = "Last check: {}".format(datetime.datetime.now().strftime('%H:%M:%S'))
 #         sleep(60)
+
 
 if __name__ == "__main__":
     print('asd')
