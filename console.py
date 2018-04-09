@@ -1,3 +1,4 @@
+print('before')
 import requests
 from cfg import CLIENT_ID, token
 from time import sleep
